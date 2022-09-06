@@ -31,6 +31,11 @@ public class XmlValidatorActionIntegrationTests {
             "https://github.com/helio-ecosystem/helio-action-xml-validator/releases/download/v0.1.0/helio-action-xml-validator-0.1.0.jar",
             "helio.actions.validator.XmlValidatorAction",
             ComponentType.ACTION);
+        
+        Components.registerAndLoad(
+                "https://github.com/helio-ecosystem/helio-action-json-validator/releases/download/v0.1.0/helio-action-json-validator-0.1.0.jar",
+                "helio.actions.validator.JsonValidatorAction",
+                ComponentType.ACTION);
     }
 	
 
