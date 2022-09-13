@@ -19,7 +19,7 @@ import java.io.StringReader;
  * @author Emilio
  *
  */
-public class XmlValidatorAction implements Action {
+public class XmlValidator implements Action {
 
 	@Override
 	public void configure(JsonObject configuration) {}
